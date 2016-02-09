@@ -6,7 +6,13 @@ using namespace std;
 
 int main()
 {
-	cout << "Hello, World!\n" << endl;
+	string name;
+
+	cout << "What is your name? \n";
+	cin >> name;
+
+
+	cout << "Hello, " << name << "!\n" << endl;
 
 	system("pause");
 	return 0;
